@@ -2,4 +2,4 @@
 
 # Comandos para rodar 
 
-# php -S localhost:500 -t public
+# php -S localhost:5000 -t public
