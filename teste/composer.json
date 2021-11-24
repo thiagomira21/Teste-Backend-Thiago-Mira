@@ -1,0 +1,28 @@
+{
+    "name": "thiagomira/teste",
+    "description": "Teste Backend Thiago Mira",
+    "autoload": {
+        "psr-4": {
+           "app\\": "app/"
+        },
+        "files": [
+           "app/Router/router.php",
+           "app/Core/Controller.php",
+           "app/Helpers/Constants.php",
+           "app/Database/Connect.php",
+           "app/Database/Fetch.php",
+           "app/Database/CreateTable.php",
+           "app/Helpers/Redirect.php",
+           "app/Helpers/Flash.php",
+           "app/Helpers/Sessions.php",
+           "app/Helpers/Validate.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Thiago",
+            "email": "thiago.mira2906@gmail.com"
+        }
+    ],
+    "require": {}
+}
